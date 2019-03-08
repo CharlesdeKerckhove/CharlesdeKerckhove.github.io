@@ -1,6 +1,6 @@
 /*General*/
 
-/*Main Colours:   #0CCFFF (Strong blue) #EEFFFF (Pastel blue) */
+/*Main Colours:   #5FBFF9 (Strong blue) #EEFFFF (Pastel blue) */
 /*CSS reset */
 * {
   margin: 0;
@@ -30,7 +30,7 @@ button{
   text-decoration: none;
   background-color: inherit;
   color: inherit;
-  border: 2px solid #0CCFFF;
+  border: 2px solid #5FBFF9;
   font-size: 1.4em;
   padding: 1%;
   margin: 1%;
@@ -98,12 +98,12 @@ nav a,
 
 nav a:hover,
 .dropdown:hover #dropbtn {
-  color: #0CCFFF;
+  color: #5FBFF9;
   cursor: pointer;
 }
 
 .active a{
-  color: #0CCFFF;
+  color: #5FBFF9;
 }
 
 .dropdown {
@@ -113,7 +113,7 @@ nav a:hover,
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #0CCFFF;
+  background-color: #5FBFF9;
   width: inherit;
   z-index: 1;
 }
@@ -144,7 +144,7 @@ nav a:hover,
     width: 100%;
     height: auto;
     padding-bottom: 1%;
-    background-color: #0CCFFF;
+    background-color: #5FBFF9;
     color: #fff;
 }
 #imageFeed{
@@ -177,7 +177,7 @@ nav a:hover,
     height: auto;
     display: block;
     margin: auto;
-    border: 2px solid #0CCFFF;
+    border: 2px solid #5FBFF9;
 }
 .visuals{
     width: inherit;
@@ -211,7 +211,7 @@ nav a:hover,
 #why{
     width: 100%;
     height: auto;
-    background-color: #0CCFFF;
+    background-color: #5FBFF9;
     color: #fff;
 }
 #download{
@@ -234,16 +234,19 @@ nav a:hover,
     color: #fff;
 }
 #returna:hover{
-    color: #0CCFFF;
+    color: #5FBFF9;
 }
 /*Screenshots*/
 #screenshotContainer{
     margin-top: 2%;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 #screenshot1{
-    width: 60%;
-    display: block;
-    margin: auto;
+    width: 100%;
 }
 #caption1{
     width: 60%;
@@ -254,7 +257,7 @@ nav a:hover,
 }
 #link{
     text-decoration: underline;
-    color: #0CCFFF;
+    color: #5FBFF9;
 }
 /*Slideshow*/
 #slideshowContainer{
@@ -267,7 +270,7 @@ nav a:hover,
     top: 30%;
     width: auto;
     padding: 16px;
-    color: #0CCFFF;
+    color: #5FBFF9;
     background-color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
     font-size: 18px;
@@ -298,7 +301,7 @@ footer {
   width: 100%;
   height: 170px;
   background-color: #EEFFFF;
-  color: #0CCFFF;
+  color: #5FBFF9;
   margin-top: 1%;
   padding-top: 1%;
 }
@@ -320,7 +323,7 @@ footer li {
 
 footer a {
   text-decoration: none;
-  color: #0CCFFF;
+  color: #5FBFF9;
   font-size: 1em;
 }
 
@@ -429,7 +432,7 @@ p {
     display: inline-block;
     width: 100%;
     height: 40px;
-    background-color: #0CCFFF;
+    background-color: #5FBFF9;
 }
 #main a:hover,
 .dropdown:hover #dropbtn {
